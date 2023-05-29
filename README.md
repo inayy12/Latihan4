@@ -6,7 +6,7 @@
 
 ## Tabel pegawai 
 Buatlah tabel pegawai dengan kodingan berikut
-``
+```
 CREATE TABLE pegawai (
   idpegawai VARCHAR(10) PRIMARY KEY,
   nama_depan VARCHAR(15),
@@ -29,15 +29,23 @@ VALUES
 ('E005', 'mike', 'scoff', 'mike@plasa.com', '08163454555', '2007-09-01', 'L0005', 1250000, 9),
 ('E006', 'lincolin', 'burrows', 'linc@yahoo.com', '08527388432', '2008-09-01', 'L0006', 1750000, NULL);
 
-``
+```
+
 ![image](https://github.com/inayy12/Latihan4/assets/115867315/8567c377-4540-4aed-bc34-f746b344ade5)
 
 <img width="668" alt="ss2" src="https://github.com/inayy12/Latihan4/assets/115867315/9204f81c-73f8-40d6-bbfa-93a9d8d591c7">
 
 1. Tampilkan pegawai yang gaji bukan 2.000.000 dan 1.250.000
-``
+
+```
 SELECT * FROM pegawai WHERE gaji NOT IN (2000000, 1250000);
-``
+```
 <img width="668" alt="ss2" src="https://github.com/inayy12/Latihan4/assets/115867315/a067d155-5506-443c-a3b6-aee34ef150ca">
 
 2. Tampilkan pegawai yang tunjuangannya NULL!
+
+```
+SELECT * FROM pegawai WHERE tunjangan IS NULL;
+```
+
+<img width="668" alt="ss2" src="https://github.com/inayy12/Latihan4/assets/115867315/25c9dbfb-dbda-47b1-9ef4-9c8942b2735a">
