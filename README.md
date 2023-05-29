@@ -31,7 +31,7 @@ VALUES
 
 ```
 
-![image](https://github.com/inayy12/Latihan4/assets/115867315/8567c377-4540-4aed-bc34-f746b344ade5)
+<img width="850" alt="ss1" src="https://github.com/inayy12/Latihan4/assets/115867315/9380f25d-2353-434b-bcbf-9d42899a0755">
 
 <img width="668" alt="ss2" src="https://github.com/inayy12/Latihan4/assets/115867315/9204f81c-73f8-40d6-bbfa-93a9d8d591c7">
 
@@ -40,7 +40,7 @@ VALUES
 ```
 SELECT * FROM pegawai WHERE gaji NOT IN (2000000, 1250000);
 ```
-<img width="668" alt="ss2" src="https://github.com/inayy12/Latihan4/assets/115867315/a067d155-5506-443c-a3b6-aee34ef150ca">
+<img width="660" alt="ss3" src="https://github.com/inayy12/Latihan4/assets/115867315/a180030e-5826-4a48-b15c-969121fcbbc6">
 
 2. Tampilkan pegawai yang tunjuangannya NULL!
 
@@ -48,4 +48,24 @@ SELECT * FROM pegawai WHERE gaji NOT IN (2000000, 1250000);
 SELECT * FROM pegawai WHERE tunjangan IS NULL;
 ```
 
-<img width="668" alt="ss2" src="https://github.com/inayy12/Latihan4/assets/115867315/25c9dbfb-dbda-47b1-9ef4-9c8942b2735a">
+<img width="660" alt="ss3" src="https://github.com/inayy12/Latihan4/assets/115867315/100e78ec-bc2b-4621-8112-6f2a2c7e3b7d">
+
+3. Tampilkan pegawai yang tunjangannya tidak NULL!
+
+```
+SELECT * FROM pegawai WHERE tunjangan IS NOT NULL;
+```
+
+<img width="657" alt="ss4" src="https://github.com/inayy12/Latihan4/assets/115867315/9680a4e1-cdca-49a2-a5a1-f2922ad91e5a">
+
+4. Tampilkan/hitung jumlah baris/record tabel pegawai!
+
+```
+SELECT COUNT(*) FROM pegawai;
+```
+
+<img width="671" alt="ss5" src="https://github.com/inayy12/Latihan4/assets/115867315/5c803c37-3971-4333-9b2f-e555e08d71c9">
+
+5. Tampilkan/hitung jumlah total gaji di tabel pegawai!
+
+```
