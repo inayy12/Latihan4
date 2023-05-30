@@ -187,4 +187,5 @@ SELECT sex, COUNT(*) as jumlah_hewan
 
 ## Evaluasi dan Pertanyaan.
 
-Dari evaluasi tugas di atas kita dapat mempelajari cara memangangil tambel, dan mengetahui isi tabel secara intense 
+Query Filtering dalam database adalah proses memilih data dari database berdasarkan kriteria tertentu.
+Dari evaluasi tugas di atas kita dapat mempelajari cara mencari database berdasarkan kerteria tertentu, dan mengetahui isinya secara intense.
