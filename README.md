@@ -186,3 +186,5 @@ SELECT sex, COUNT(*) as jumlah_hewan
 
 
 ## Evaluasi dan Pertanyaan.
+
+Dari evaluasi tugas di atas kita dapat mempelajari cara memangangil tambel, dan mengetahui isi tabel secara intense 
